@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "General", "Game1\General.csproj", "{1582C67F-5528-4E4F-9E5A-84E841C0DAA8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Physics", "Physics\Physics.shproj", "{EB63C16C-6B05-4E97-9A9F-E2CA44104B3D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AI", "AI\AI.shproj", "{9ED0F047-F9FF-4D01-8626-DFE6C6781D80}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AI\AI.projitems*{1582c67f-5528-4e4f-9e5a-84e841c0daa8}*SharedItemsImports = 4
+		Physics\Physics.projitems*{1582c67f-5528-4e4f-9e5a-84e841c0daa8}*SharedItemsImports = 4
+		AI\AI.projitems*{9ed0f047-f9ff-4d01-8626-dfe6c6781d80}*SharedItemsImports = 13
+		Physics\Physics.projitems*{eb63c16c-6b05-4e97-9a9f-e2ca44104b3d}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1582C67F-5528-4E4F-9E5A-84E841C0DAA8}.Debug|x86.ActiveCfg = Debug|x86
+		{1582C67F-5528-4E4F-9E5A-84E841C0DAA8}.Debug|x86.Build.0 = Debug|x86
+		{1582C67F-5528-4E4F-9E5A-84E841C0DAA8}.Release|x86.ActiveCfg = Release|x86
+		{1582C67F-5528-4E4F-9E5A-84E841C0DAA8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

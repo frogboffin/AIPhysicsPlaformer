@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>eb63c16c-6b05-4e97-9a9f-e2ca44104b3d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Physics</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)CollisionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CollisionPair.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RigidBody2D.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shape.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpringJoint.cs" />
+  </ItemGroup>
+</Project>
